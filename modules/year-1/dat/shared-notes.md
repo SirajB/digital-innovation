@@ -41,7 +41,7 @@ Foreign key used to access a different row with related information.
  
 **Differences between secondary Key and Foreign Key**
 
-| Secondary Key        | Forein Key           |
+| Secondary Key        | Foreign Key           |
 | -------------------- |:--------------------:|
 | Secondary key uniquely identifies a record in the table.      | Foreign key is a field in the table that is secondary key in another table. |
 | Secondary Key can't accept null values.      | Foreign key can accept multiple null value.      |
@@ -60,7 +60,7 @@ Each cell can only contain a single piece of information
 
 
 id has no functional dependencies as it is unique and thus is used as the secondary key for the table. 
-Name depends on the iD.
+Name depends on the ID.
 Postcode depends on City.
 Composite key is used where more than one value is used as a secondary key
 
